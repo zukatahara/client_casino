@@ -1,0 +1,12 @@
+{
+  "my_wallet": "กระเป๋าเงินของฉัน",
+  "total_assets": "สินทรัพย์รวม",
+  "my_balance": "ยอดเงินของฉัน",
+  "balance": "ยอดเงิน",
+  "transfer_back": "กดเพื่อโอนกลับ",
+  "pending_balance": "ยอดเงินรอดำเนินการ",
+  "third_party_balance": "ยอดเงินจากบุคคลที่สาม",
+  "complete": "เสร็จสมบูรณ์",
+  "wallet_balance": "ยอดเงินในกระเป๋า",
+  "game": "เกม"
+}

@@ -1,0 +1,163 @@
+.fund-wp .base-info-wp[data-v-5b4ebc5a] {
+  position: relative;
+  margin: 15.6vw auto 4.266667vw;
+  padding: 7.333333vw 3.2vw 3.2vw 3.2vw;
+  width: 91.466667vw;
+  height: 36.266667vw;
+}
+
+.fund-wp .base-info-wp.login-status[data-v-5b4ebc5a] {
+  background: url(../../../assets/images/funds-bg-login.266d7916.png) top/cover;
+}
+
+.fund-wp .base-info-wp.logout-status[data-v-5b4ebc5a] {
+  background: url(../../../assets/images/funds-bg-logout.4a0a3b64.png) top/cover;
+}
+
+.fund-wp .base-info-wp .greeting[data-v-5b4ebc5a] {
+  padding-bottom: 4.266667vw;
+  height: 4.8vw;
+  line-height: 4.8vw;
+  font-size: 3.466667vw;
+  color: #fff;
+  font-weight: 400;
+}
+
+.fund-wp .base-info-wp .amount[data-v-5b4ebc5a] {
+  display: flex;
+  flex-direction: column;
+  line-height: 5.333333vw;
+  color: #e9cfa4;
+  font-weight: 500;
+  margin: 2.133333vw 0;
+}
+
+.fund-wp .base-info-wp .amount .moneyTitle[data-v-5b4ebc5a] {
+  font-size: 3.2vw;
+  line-height: 4.266667vw;
+  height: 4.266667vw;
+}
+
+.fund-wp .base-info-wp .amount .moneyNum[data-v-5b4ebc5a] {
+  text-overflow: ellipsis;
+  justify-content: space-between;
+  color: #21e06b;
+  white-space: nowrap;
+  font-size: 3.733333vw;
+  font-weight: 500;
+  line-height: 4.266667vw;
+  height: 4.266667vw;
+}
+
+.fund-wp .base-info-wp .login-tips[data-v-5b4ebc5a] {
+  display: flex;
+  align-items: center;
+  width: 53.333333vw;
+  height: 19.2vw;
+  line-height: 5.333333vw;
+  font-size: 4.266667vw;
+  color: #e9cfa4;
+  font-weight: 500;
+}
+
+.fund-wp .base-info-wp .text[data-v-5b4ebc5a] {
+  height: 4.533333vw;
+  line-height: 4.533333vw;
+  font-size: 3.2vw;
+  color: rgba(233, 207, 164, 0.6);
+  font-weight: 400;
+}
+
+.fund-wp .base-info-wp .spec[data-v-5b4ebc5a] {
+  position: absolute;
+  right: 8vw;
+  bottom: 4.266667vw;
+  height: 5.866667vw;
+  line-height: 5.866667vw;
+  font-size: 4.266667vw;
+  color: hsla(0, 0%, 100%, 0.6);
+  font-weight: 500;
+}
+
+.fund-wp .base-info-wp .login-btn[data-v-5b4ebc5a] {
+  position: absolute;
+  right: 6.4vw;
+  width: 27.466667vw;
+  height: 8.533333vw;
+  line-height: 8.533333vw;
+  border: 1px solid #e9cfa4;
+  border-radius: 4.8vw;
+  color: #e9cfa4;
+  text-align: center;
+  font-size: 3.733333vw;
+  font-weight: 400;
+}
+
+.fund-wp .deposit-withdraw-wp[data-v-5b4ebc5a] {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  padding: 0 4.266667vw;
+}
+
+.fund-wp .deposit-withdraw-wp .d-w-btn[data-v-5b4ebc5a] {
+  display: flex;
+  align-items: center;
+  width: 44vw;
+  height: 14.933333vw;
+  line-height: 14.933333vw;
+  background: #35416d;
+  box-shadow: 0 0 1.066667vw 0 rgba(0, 0, 0, 0.05);
+  border-radius: 7.466667vw;
+  color: #fff;
+  font-size: 4.266667vw;
+  font-weight: 400;
+}
+
+.fund-wp .deposit-withdraw-wp .d-w-btn .iconfont[data-v-5b4ebc5a] {
+  margin: 0 2.666667vw 0 4.266667vw;
+  background-image: linear-gradient(137deg, #a98fff 1%, #4a69ff 99%);
+  font-size: 9.6vw;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.fund-wp .items-wp[data-v-5b4ebc5a] {
+  margin: 4.266667vw auto;
+  width: 91.466667vw;
+}
+
+.fund-wp .items-wp .item[data-v-5b4ebc5a] {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2.133333vw;
+  padding: 0 3.2vw;
+  height: 11.733333vw;
+  line-height: 11.733333vw;
+  background: #35416d;
+  box-shadow: 0 0 0.533333vw 0 rgba(0, 0, 0, 0.1);
+  border-radius: 1.6vw;
+  color: #fff;
+  font-size: 3.733333vw;
+  font-weight: 400;
+}
+
+.fund-wp .items-wp .item .left-label[data-v-5b4ebc5a] {
+  display: flex;
+  align-items: center;
+}
+
+.fund-wp .items-wp .item .left-label .iconfont[data-v-5b4ebc5a] {
+  margin-right: 2.133333vw;
+  font-size: 5.333333vw;
+  background: linear-gradient(137deg, #a98fff 1%, #4a69ff 99%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.fund-wp .items-wp .item .iconfont[data-v-5b4ebc5a] {
+  font-size: 3.466667vw;
+  color: #99acf1;
+}

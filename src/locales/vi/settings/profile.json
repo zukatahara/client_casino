@@ -1,0 +1,50 @@
+{
+  "change_password": {
+    "password_required": "Mật khẩu bắt buộc có 6 - 12 ký tự",
+    "password_mismatch": "Mật khẩu xác nhận không chính xác",
+    "change_password_success": "Đổi mật khẩu thành công",
+    "change_password_fail": "Đổi mật khẩu không thành công",
+    "change": "Thay đổi",
+    "change_password": "Đổi mật khẩu",
+    "current_password": "Mật khẩu hiện tại",
+    "password_placeholder": "Sử dụng 6-16 ký tự bao gồm chữ thường và số",
+    "new_password": "Mật khẩu mới",
+    "new_password_placeholder": "(Sử dụng 6-16 ký tự bao gồm chữ thường và số)",
+    "confirm_new_password": "Xác nhận mật khẩu mới",
+    "confirm_password_placeholder": "Xác nhận mật khẩu",
+    "submit": "Đổi",
+    "password_confirm_required": "Mật khẩu xác nhận bắt buộc có 6 - 12 ký tự",
+    "set_change_password_success": "Đặt mật khẩu thành công",
+    "set_change_password_fail": "Đặt mật khẩu không thành công",
+    "set_change": "Cài đặt",
+    "change_login_password": "Thay đổi mật khẩu đăng nhập",
+    "password": "Mật khẩu",
+    "withdraw_password": "Mật khẩu rút tiền"
+  },
+  "security": {
+    "account_security": "Bảo mật tài khoản",
+    "phone_number": "Số điện thoại",
+    "login_password": "Mật khẩu đăng nhập",
+    "withdraw_password": "Mật khẩu rút tiền"
+  },
+  "personal_info": "Thông tin cá nhân",
+  "account": "Tài khoản",
+  "fullname": "Họ tên",
+  "contact_support": "Liên hệ CSKH để thay đổi",
+  "mobile": {
+    "personal_page": "Trang cá nhân",
+    "join_date": "Gia nhập",
+    "full_name": "Họ tên",
+    "phone_number": "Số điện thoại",
+    "bank_account": "Tài khoản ngân hàng",
+    "account_count": "Số lượng tài khoản",
+    "change_password": "Thay đổi mật khẩu",
+    "password_and_withdraw_password": "Mật khẩu & Mật khẩu rút tiền"
+  },
+  "bank_detail": {
+    "add": "Thêm vào",
+    "account_number": "Số tài khoản",
+    "account_count": "Số lượng tài khoản",
+    "default": "Mặc định"
+  }
+}

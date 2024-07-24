@@ -1,0 +1,111 @@
+.scrollList {
+  overflow: hidden;
+  position: absolute;
+  top: 100px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.scrollList .wrapper-tontent {
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 0.533rem;
+  font-weight: 400;
+  padding: 0 10px;
+}
+
+.scrollList .wrapper-tontent .header {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding: 0.533rem 0;
+}
+
+.scrollList .wrapper-tontent .body {
+  text-align: center;
+}
+
+.scrollList .wrapper-tontent .body .modifyText {
+  font-size: 16px;
+  color: #e9cfa4;
+  text-align: center;
+  font-weight: 400;
+  margin: 0.533rem 0;
+}
+
+.scrollList .wrapper-tontent .body .card {
+  padding: 1.533rem;
+  margin-top: 0.533rem;
+  background-image: url(../../../assets/images/bg_bank_card.029eb146.png);
+  background-size: 100% 100%;
+}
+
+.scrollList .wrapper-tontent .body .card .bank {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.scrollList .wrapper-tontent .body .card .bank .bankName {
+  font-size: 16px;
+  color: #e9cfa4;
+  text-align: right;
+  font-weight: 500;
+}
+
+.scrollList .wrapper-tontent .body .card .bankNum {
+  padding: 1.333rem 0 0.8rem 0;
+  display: flex;
+}
+
+.scrollList .wrapper-tontent .body .card .bankNum span {
+  margin-right: 0.533rem;
+}
+
+.scrollList .wrapper-tontent .body .card .bankInfo {
+  display: flex;
+  height: 1.067rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.scrollList .wrapper-tontent .body .card .van-radio {
+  display: flex;
+  justify-content: center;
+}
+
+.scrollList .wrapper-tontent .body .card .van-radio .van-radio__icon {
+  margin-right: 0.133rem;
+}
+
+.scrollList .wrapper-tontent .body .card .van-radio .van-radio__label {
+  color: #fff;
+  text-align: center;
+  margin-left: 0;
+}
+
+.scrollList .wrapper-tontent .body .card .van-radio .van-radio__icon--checked {
+  color: #e9cfa4;
+}
+
+.scrollList .wrapper-tontent .body .send {
+  padding: 0 0.427rem;
+  margin-top: 0.667rem;
+}
+
+.scrollList .wrapper-tontent .body .sendBtn {
+  height: 1.333rem;
+  background-image: linear-gradient(90deg, #7146ff, #4a69ff);
+  border-radius: 0.667rem;
+  line-height: 1.333rem;
+  vertical-align: middle;
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+  font-weight: 400;
+}
+
+.scrollList .wrapper-tontent .botoom {
+  height: 1.333rem;
+}

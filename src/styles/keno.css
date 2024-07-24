@@ -1,0 +1,738 @@
+.kenoLottoOpenNumberList li {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.kenoLottoOpenNumberList li.onlyNorthern {
+  position: relative;
+}
+
+.kenoLottoOpenNumberList li.bg1,
+.kenoLottoOpenNumberList li.bg2 {
+  background-color: var(--white);
+}
+
+.kenoLottoOpenNumberList li > div:last-of-type {
+  border-right: 0;
+}
+
+.kenoLottoOpenNumberList li > div.bd1 {
+  border-left: 1px solid rgba(144, 162, 220, 0.4);
+}
+
+.kenoLottoOpenNumberList li .przeName {
+  width: 122px;
+}
+
+.kenoLottoOpenNumberList li .przeName.onlyNorthern {
+  height: 96px;
+  line-height: 96px;
+}
+
+.kenoLottoOpenNumberList li .openNum {
+  flex: 1;
+}
+
+.kenoLottoOpenNumberList li .openNum.onlyNorthern {
+  height: 96px;
+}
+
+.kenoLottoOpenNumberList li .openNum.onlyNorthern.noBorder {
+  border: 0;
+}
+
+.kenoLottoOpenNumberList li .openNum.onlyNorthern.showMoreData {
+  left: 122px;
+}
+
+.kenoLottoOpenNumberList li .openNum.onlyNorthern > div {
+  height: 32px;
+  padding: 0 20px;
+  text-align: left;
+}
+
+.kenoLottoOpenNumberList li .openNum.onlyNorthern > div .label {
+  width: 84px;
+  height: 20px;
+  display: inline-block;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPwAAAA8CAMAAAB1nSfhAAAARVBMVEUAAABLWH42Qmg3Q2k3Qmk2Qmk3Q2o2Qmk7SHA2Qmg3Q2k5RWo3SGw2Q2g2Qmk2Qmk2Qmk3Q2k4Qms7RWo2Q2k3Q2k2QmhbKeh2AAAAFnRSTlMABuVsyr9m8xTseDYe+9ajjV1LJt20m5W7jQAAAO9JREFUaN7l28kVAyEMBNGRBAyzb3bnH6p9NITg6gz+AR6LevimpFH/nylfNvSpWZTk2uM5dil39iJSSotPIsWtwRP2up9EgxcrbmC8gox3A+MVZLwbGK8g493AeAUZ7wbGK8h4NzBeQca7gfEKMt4NjFeQ8W5gvIKMdwPjFWS8GxivION3Ml4rGb+Q8Q8Y7+Q1P4PxUwXjZ/AJD322L+Bb3Yt8n7/ALzk7+QHzBuMT+dPiBuMz+aNyAePf5OGEBYw/wANJ2wPGH+AhxG0F40/w4PFYwWWDE1wzGSu4YDSDq2XJuKXCtLZ0UJ00FevgH9kp6BtyypgjAAAAAElFTkSuQmCC);
+  background-size: cover;
+  border-radius: 2px;
+  font-size: 12px;
+  color: #8696cc;
+  text-align: center;
+  line-height: 20px;
+  font-weight: 400;
+  margin-right: 16px;
+}
+
+.kenoLottoOpenNumberList li .index {
+  width: 40px;
+}
+
+.kenoLottoOpenNumberList li .issue {
+  width: 138px;
+  border-left: 1px solid rgba(144, 162, 220, 0.4);
+}
+
+.kenoLottoOpenNumberList li .issue i {
+  margin-left: -20px;
+}
+
+.kenoLottoOpenNumberList li .issue.active {
+  background-color: #90a2dc;
+  font-weight: 700;
+  color: #fff;
+}
+
+.kenoLottoOpenNumberList li .calcNum {
+  width: 190px;
+}
+
+.kenoLottoOpenNumberList li .calcNum:hover {
+  background-color: #1f61b2;
+  font-weight: 700;
+  color: #fff;
+}
+
+.kenoLottoOpenNumberList li .dbH {
+  height: 64px;
+  line-height: 64px;
+}
+
+.kenoLottoOpenNumberList {
+  width: 327px;
+  text-align: center;
+  height: 275px;
+  box-shadow: inset -0.5px -0.5px 0 0 rgba(144, 162, 220, 0.5);
+}
+
+.kenoLottoOpenNumberList .el-input__suffix-inner {
+  position: relative;
+  top: -2px;
+}
+
+.kenoLottoOpenNumberList li {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  height: 30px;
+}
+
+.kenoLottoOpenNumberList li > div {
+  box-shadow: inset -0.5px -0.5px 0 0 rgba(144, 162, 220, 0.5);
+  width: 100%;
+  color: #afb0b2;
+  font-size: 12px;
+  cursor: pointer;
+  padding: 4px 0;
+}
+
+.kenoLottoOpenNumberList li > div.bd1 {
+  border-left: 1px solid #dcdfe6;
+}
+
+.kenoLottoOpenNumberList li .rigitIssues {
+  padding: 0;
+}
+
+.kenoLottoOpenNumberList li .przeName {
+  width: 138px;
+}
+
+.kenoLottoOpenNumberList li .openNum {
+  flex: 1;
+}
+
+.kenoLottoOpenNumberList li .index {
+  width: 40px;
+}
+
+.kenoLottoOpenNumberList li .issue {
+  width: 138px;
+}
+
+.kenoLottoOpenNumberList li .issue i {
+  margin-left: -20px;
+}
+
+.kenoLottoOpenNumberList li .issue.active {
+  background-color: #1f61b2;
+  font-weight: 700;
+  color: #fff;
+}
+
+.kenoLottoOpenNumberList li .calcNum {
+  width: 190px;
+}
+
+.kenoLottoOpenNumberList li .calcNum:hover {
+  background-color: #1f61b2;
+  font-weight: 700;
+  color: #fff;
+}
+
+.kenoLottoOpenNumberList li .dbH {
+  height: 60px;
+  line-height: 60px;
+}
+
+.kenoLottoOpenNumberList li .blue {
+  height: 17px;
+}
+
+.kenoLottoOpenNumberList li .red {
+  height: 17px;
+  color: #f93e3e;
+}
+
+.kenoLottoOpenNumberList li .yellow {
+  color: #e9cfa4;
+}
+
+.kenoLottoOpenNumberList .header {
+  width: 100%;
+  height: 56px;
+  line-height: 56px;
+  font-size: 12px;
+  background-color: var(--white);
+  border-right: 1px solid var(--white);
+  box-sizing: border-box;
+  box-shadow: inset 0 -1px 0 0 rgba(132, 145, 165, 0.3);
+}
+
+.kenoLottoOpenNumberList .header .left {
+  width: 288px;
+  height: 56px;
+  line-height: 22px;
+  font-weight: 400;
+  text-align: left;
+  padding-top: 8px;
+  padding-left: 12px;
+  box-shadow: inset -0.5px 0 0 0 rgba(144, 162, 220, 0.3);
+}
+
+.kenoLottoOpenNumberList .header div {
+  border-right: none;
+  border-bottom: none;
+  box-shadow: inset -0.5px 0 0 0 rgba(144, 162, 220, 0.3);
+}
+
+.kenoLottoOpenNumberList .header div .icon-gantanhao {
+  color: #f56c6c;
+}
+
+.kenoLottoOpenNumberList .noboder {
+  border-right: none;
+}
+
+.kenoLottoOpenNumberList .ball {
+  width: 20px;
+  height: 20px;
+  float: left;
+  line-height: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+  background-position: bottom;
+  font-size: 12px;
+  box-sizing: border-box;
+  vertical-align: middle;
+  text-align: center;
+  background-color: #f3f5f9;
+  color: #8491a5;
+  background-image: none;
+  box-shadow: inset 0 -1px 1px 0 rgba(0, 0, 0, 0.2);
+}
+
+.kenoLottoOpenNumberList .ball.ballRight {
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
+  background: url(data:image/png;base64,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)
+    no-repeat 50%/100%;
+  color: #292b31;
+  font-size: 12px;
+  box-shadow: 0 0 1px 0 rgba(98, 54, 255, 0.1);
+  border: 1px solid #fff;
+}
+
+.kenoLottoOpenNumberList .ball.ballRight i {
+  transform: scale(0.8);
+  display: inline-block;
+}
+
+.kenoLottoOpenNumberList .ballList {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.kenoLottoOpenNumberList .ballList div {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.kenoLottoOpenNumberList .data {
+  height: 216px;
+}
+
+.kenoLottoOpenNumberList .data ul {
+  width: 100%;
+  height: 216px;
+  overflow-y: auto;
+}
+
+.kenoLottoOpenNumberList .data .bg3 {
+  background-color: var(--gray1);
+}
+
+.kenoLottoOpenNumberList .data li:hover {
+  background-color: var(--gray1);
+}
+
+.kenoLottoOpenNumberList .data .bg3 .rigitIssues {
+  color: #fff;
+}
+
+.kenoLottoOpenNumberList .data .bg3 .rigitIssues .openCodeList {
+  border-left: 1px solid var(--white2) !important;
+  color: #fff;
+}
+
+.kenoLottoOpenNumberList .rigitIssues {
+  display: flex;
+}
+
+.kenoLottoOpenNumberList .rigitIssues .issue {
+  width: 119px;
+  box-shadow: inset -0.5px 0 0 0 rgba(144, 162, 220, 0.5);
+  font-size: 14px;
+  color: #fff;
+}
+
+.kenoLottoOpenNumberList .rigitIssues .openCodeList {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  padding: 0 6px;
+  align-items: center;
+}
+
+.kenoLottoOpenNumberList .bf {
+  height: 40px;
+  line-height: 40px;
+}
+
+.kenoLottoOpenNumberList .el-input {
+  background-color: var(--white);
+  font-weight: 500;
+  color: #fff;
+}
+
+.kenoLottoOpenNumberList .el-input input {
+  text-align: center;
+  background-color: var(--white);
+  color: #e9cfa4;
+  font-weight: 500;
+  border: none;
+  width: 180px;
+  font-size: 16px;
+}
+
+.kenoLottoOpenNumberList .el-select {
+  width: 170px !important;
+  margin: 0 auto;
+}
+
+.kenoLottoOpenNumberList .el-select__caret {
+  color: #fff !important;
+}
+
+.port1 {
+  flex: 1;
+  width: 460px;
+}
+
+.appearStatistics {
+  flex-wrap: wrap;
+  border-bottom: 1px solid rgba(144, 162, 220, 0.5);
+}
+
+.appearStatistics .appear {
+  display: flex;
+  height: 73px;
+  flex: 6.66666666666666666%;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  background-color: var(--white);
+  justify-content: center;
+}
+
+.appearStatistics .appear div {
+  flex: 1;
+  width: 100%;
+  font-size: 12px;
+  box-sizing: border-box;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.kenoLottoOpenNumberList .rigitIssues .issue {
+  box-shadow: none !important;
+  position: relative;
+  font-size: 12px;
+  color: #8491a5;
+  font-weight: 400;
+}
+
+.openData {
+  border-top: 1px solid rgba(144, 162, 220, 0.4);
+  box-sizing: border-box;
+}
+
+.playExplain {
+  color: #cdd2da;
+  padding: 18px 120px 18px 18px;
+  user-select: none;
+  pointer-events: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  padding: 18px;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.kenoTableTitle .titles {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  width: 30%;
+  min-width: 30%;
+  max-width: 30%;
+  margin-bottom: 5px;
+  justify-content: center;
+}
+
+.kenoTableTitle .label {
+  border-color: var(--red);
+  background: var(--red);
+  border: 1px solid;
+  border-radius: 2px;
+  font-size: 12px;
+  color: #fff;
+  text-align: center;
+  padding: 0 5px;
+  margin-right: 8px;
+}
+
+.kenoTableTitle .label.red {
+  border-color: var(--red);
+  background: var(--red);
+}
+.kenoTableTitle .label.blue {
+  border-color: var(--blue);
+  background: var(--blue);
+}
+.kenoTableTitle .label.gray {
+  border-color: var(--gray);
+  background: var(--gray);
+}
+.kenoTableTitle .label.green {
+  border-color: var(--green);
+  background: var(--green);
+}
+.kenoTableTitle .label.brown {
+  border-color: var(--brown);
+  background: var(--brown);
+}
+
+.kenoTableTitle .label.yellow {
+  border-color: var(--yellow);
+  background: var(--yellow);
+}
+
+.koTitle .classItem {
+  margin: 0 4px;
+  height: 20px;
+  font-size: 12px;
+  text-align: center;
+  line-height: 20px;
+  padding: 0 5px;
+  vertical-align: middle;
+  border-radius: 10px;
+  width: 37px;
+  color: #8fa1dc;
+  border: unset;
+  box-shadow: inset 0 -1px 2px 0 #8e9fda, inset 0 1px 2px 0 #8d9ed9;
+}
+
+.resultList {
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-between;
+}
+
+.resultList .resultNum {
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+}
+
+.resultList .codeList {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.resultList .resultNum .codeList .code {
+  flex: 1;
+  width: 12%;
+  min-width: 10%;
+  max-width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.resultList .resultNum .codeList .code span {
+  background: url(data:image/png;base64,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)
+    no-repeat 50%/100%;
+  color: #202225;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  line-height: 25px;
+  border: 1px solid hsla(0, 0%, 100%, 0.578);
+  box-shadow: 0 1px 3px 0 rgba(98, 54, 255, 0.25);
+  font-size: 15px;
+  border-radius: 50%;
+  text-align: center;
+}
+.resultList .resultNum .codeList .code span i {
+  zoom: 0.7;
+  -webkit-transform: scale(0.8);
+  transform: scale(0.8);
+}
+
+.resultList .resultSum {
+  width: 48px;
+  height: 48px;
+  line-height: 48px;
+  background-image: linear-gradient(136deg, #7146ff, #4a69ff);
+  box-shadow: 0 2px 5px 0 rgba(98, 54, 255, 0.25);
+  border: 1px solid hsla(0, 0%, 100%, 0.578);
+  border-radius: 4px;
+  font-size: 14px;
+  color: #fff;
+  margin-left: 10px;
+  margin-top: 2px;
+  text-align: center;
+}
+
+.tableData {
+  padding: 0 7px 4px;
+  display: flex;
+  justify-content: center;
+}
+
+.tableData .tableItem {
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+}
+
+.tableData .tableDataList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 5px;
+  flex: 1;
+}
+
+.tableData .tableDataList .items {
+  width: 18px;
+  height: 18px;
+  font-size: 10px;
+  color: #fff;
+  flex: 1;
+  font-weight: 400;
+  display: inline-block;
+  text-align: center;
+  line-height: 18px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.tableData .tableDataList .items.red {
+  border-color: var(--red);
+  background: var(--red);
+}
+.tableData .tableDataList .items.blue {
+  border-color: var(--blue);
+  background: var(--blue);
+}
+.tableData .tableDataList .items.gray {
+  border-color: var(--gray);
+  background: var(--gray);
+}
+.tableData .tableDataList .items.green {
+  border-color: var(--green);
+  background: var(--green);
+}
+.tableData .tableDataList .items.brown {
+  border-color: var(--brown);
+  background: var(--brown);
+}
+
+.tableData .tableDataList .items.yellow {
+  border-color: var(--yellow);
+  background: var(--yellow);
+}
+
+.tableData .tableDataList .list {
+  margin-bottom: 3px;
+  display: flex;
+}
+
+.kenoBet .row li {
+  background-color: var(--light-white);
+  border: 1px solid rgba(214, 217, 224, 0.29);
+  border-radius: 12px;
+  margin-top: 12px;
+}
+
+.kenoBet .row .title::before {
+  content: "";
+  width: 2px;
+  height: 12px;
+  display: inline-block;
+  margin-right: 6px;
+  background-color: #4a69ff;
+}
+
+.kenoBet .row .title {
+  padding-left: 12px;
+  height: 20px;
+  line-height: 20px;
+  margin-top: 12px;
+  text-align: left;
+  color: var(--gray);
+  background: transparent;
+}
+
+.kenoBet .row .ballBox {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 6px;
+}
+
+.kenoBet .row .ballBox2 {
+  display: grid;
+  grid-column: 10;
+  padding: 6px;
+}
+
+.kenoBet .row .ballBox li {
+  position: relative;
+  height: 48px;
+  box-shadow: inset 0 -1px 3px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  background-color: #fff;
+  box-sizing: border-box;
+  border: 1px solid transparent;
+  margin: 6px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+}
+
+.kenoBet .row .ballBox li.clicked {
+  background-color: var(--white);
+  border: 1px solid var(--blue);
+}
+
+.kenoBet .row > li .ballBox li p:nth-of-type(2) {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  color: var(--gray);
+  font-size: 12px;
+}
+
+.rigitIssues .openCodeList {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  padding: 0 6px;
+  align-items: center;
+}
+
+.rigitIssues .openCodeList {
+  background: #f3f5f9;
+  flex: none;
+  padding: 0 9px;
+  border-radius: 13px;
+  width: 192px;
+  margin-left: 12px;
+  height: 26px;
+}
+.rigitIssues {
+  align-items: center;
+}
+
+.sumTotal {
+  background: none;
+  width: auto;
+  font-weight: 400;
+  font-size: 13px;
+  color: #4a69ff;
+}
+
+.big {
+  color: #f94168;
+}
+
+.big,
+.fire,
+.odd,
+.up {
+  color: #f94168;
+}
+
+.down,
+.even,
+.small,
+.water {
+  color: #26a1ff;
+}
+
+.middle {
+  color: #c0c4cc;
+}
+
+.gold {
+  color: #fb0;
+}
+
+.wood {
+  color: #6dd400;
+}
+
+.earth {
+  color: #ca8c10;
+}

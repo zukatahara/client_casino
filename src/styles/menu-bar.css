@@ -1,0 +1,166 @@
+ .rightInfo {
+     display: flex;
+     align-items: center;
+     padding-right: 4.266667vw
+ }
+
+ .rightInfo .van-button {
+     height: 7.466667vw;
+     border-radius: 1.6vw
+ }
+
+ .rightInfo .loginBox span {
+     height: 3.733333vw;
+     padding: 0 2.666667vw;
+     line-height: 3.733333vw;
+     font-size: 3.2vw;
+     color: #e9cfa4;
+     display: inline-block;
+     text-align: center
+ }
+
+ .rightInfo .loginBox .register {
+     border-right: 1px solid #e9cfa4
+ }
+
+ .rightInfo .recharge {
+     width: 19.066667vw;
+     background: #e9cfa4;
+     color: #293356;
+     border: none;
+     padding: 0
+ }
+
+ .moneyBox {
+     display: flex;
+     align-items: center;
+     margin-right: 2.133333vw;
+     color: #e9cfa4
+ }
+
+ .moneyBox .iconfont {
+     display: block;
+     font-size: 5.333333vw
+ }
+
+ .moneyBox .money {
+     font-size: 3.2vw;
+     padding-top: 1.066667vw;
+     text-align: right;
+     margin-right: 1.6vw
+ }
+
+ .moneyBox .money p {
+     line-height: 3.733333vw
+ }
+
+ .moneyBox .money p:first-child {
+     color: #90a2dc
+ }
+
+ .logoutBtn {
+     width: 20.266667vw;
+     height: 7.466667vw;
+     font-size: 2.666667vw;
+     padding: 0 2.133333vw
+ }
+
+ .red-envelope-c-d {
+     margin: 37.6vw auto 3.2vw auto;
+     width: 91.466667vw;
+     height: 84.8vw;
+     background: url(../../static/img/img_countdown_re_detail.2b389013.png);
+     background-size: 100%;
+     overflow: hidden
+ }
+
+ .red-envelope-c-d .title {
+     margin: 19.2vw auto 26.4vw;
+     width: 48vw;
+     height: 15.466667vw;
+     line-height: 1;
+     color: #fddaa4;
+     text-align: center;
+     font-size: 6.4vw
+ }
+
+ .red-envelope-c-d .title .txt-title {
+     width: 100%;
+     height: 10.666667vw;
+     line-height: 10.666667vw;
+     overflow: hidden;
+     white-space: nowrap;
+     text-overflow: ellipsis;
+     font-size: 4.266667vw
+ }
+
+ .red-envelope-c-d .title .sub-title {
+     line-height: 3.2vw;
+     font-size: 3.2vw
+ }
+
+ .red-envelope-c-d .count-down {
+     margin: 0 26.666667vw 14.133333vw 28.266667vw;
+     width: 36.533333vw;
+     height: 9.6vw;
+     line-height: 9.6vw;
+     background: #eb2a4b;
+     border: .533333vw solid #ffddad;
+     box-shadow: inset 0 0 1.066667vw 0 rgba(0, 0, 0, .6);
+     box-shadow: 0 0 1.6vw 0 rgba(0, 0, 0, .2);
+     border-radius: 5.866667vw;
+     color: #fddaa4;
+     text-align: center;
+     font-size: 3.733333vw
+ }
+
+ .red-envelope-x-btn {
+     margin: auto;
+     width: 12.266667vw;
+     height: 12.266667vw;
+     background: rgba(0, 0, 0, .6);
+     color: #fff;
+     border-radius: 50%
+ }
+
+ .red-envelope-x-btn .van-icon-cross {
+     width: 12.266667vw;
+     height: 12.266667vw;
+     line-height: 12.266667vw;
+     text-align: center;
+     font-size: 6.4vw
+ }
+
+ .van-button__content {
+     display: -webkit-box;
+     display: -webkit-flex;
+     display: flex;
+     -webkit-box-align: center;
+     -webkit-align-items: center;
+     align-items: center;
+     -webkit-box-pack: center;
+     -webkit-justify-content: center;
+     justify-content: center;
+     height: 100%
+ }
+
+ .arrowUp {
+     transition: .2s;
+     -webkit-transform-origin: center;
+     transform-origin: center;
+     -webkit-transform: rotate(0deg);
+     transform: rotate(0deg);
+ }
+
+ .van-icon,
+ .van-icon:before {
+     display: inline-block;
+ }
+
+ .van-icon {
+     position: relative;
+     font: normal normal normal 3.733333vw/1 vant-icon;
+     font-size: inherit;
+     text-rendering: auto;
+     -webkit-font-smoothing: antialiased;
+ }

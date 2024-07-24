@@ -1,0 +1,353 @@
+.van-overlay[data-v-59eb43e9] {
+    z-index: 1000
+}
+
+.overlay-wrapper[data-v-59eb43e9] {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    width: 72.266667vw;
+    background: #1a223b;
+    border-radius: 2.133333vw
+}
+
+.overlay-wrapper .panel-item[data-v-59eb43e9],.overlay-wrapper .title[data-v-59eb43e9] {
+    height: 10.666667vw;
+    line-height: 10.666667vw
+}
+
+.overlay-wrapper .title[data-v-59eb43e9] {
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-top-left-radius: 2.133333vw;
+    border-top-right-radius: 2.133333vw;
+    background: #1a223b;
+    color: #fff;
+    text-align: center;
+    font-size: 4.266667vw;
+    font-weight: 500
+}
+
+.overlay-wrapper .title .overlay-xbtn[data-v-59eb43e9] {
+    position: absolute;
+    right: 3.733333vw;
+    font-size: 3.04vw
+}
+
+.overlay-wrapper .panel[data-v-59eb43e9] {
+    padding-top: 10.666667vw
+}
+
+.overlay-wrapper .panel .panel-item[data-v-59eb43e9] {
+    font-size: 3.733333vw;
+    font-weight: 400;
+    box-shadow: inset 0 .5px 0 0 rgba(144,162,220,.5)
+}
+
+.overlay-wrapper .panel .panel-item[data-v-59eb43e9]:nth-last-child {
+    border-bottom-left-radius: 2.133333vw;
+    border-bottom-right-radius: 2.133333vw;
+    box-shadow: none
+}
+
+.overlay-wrapper .panel .panel-item .radio-style[data-v-59eb43e9] {
+    display: inline-block;
+    width: 3.733333vw;
+    height: 3.733333vw
+}
+
+.overlay-wrapper[data-v-59eb43e9] .van-radio {
+    justify-content: space-around;
+    flex-direction: row-reverse
+}
+
+.overlay-wrapper[data-v-59eb43e9] .van-radio .van-radio__icon {
+    color: #e9cfa4
+}
+
+.overlay-wrapper[data-v-59eb43e9] .van-radio .van-radio__label {
+    width: 40vw;
+    color: #fff;
+    text-align: center;
+    margin-left: 0
+}
+
+.withdrawal[data-v-59eb43e9] {
+    padding: 0 4.266667vw
+}
+
+.scrollList[data-v-59eb43e9] {
+    overflow: scroll;
+    position: absolute;
+    top: 13.333333vw;
+    bottom: 0;
+    left: 0;
+    right: 0
+}
+
+.scrollList .wrapper-tontent[data-v-59eb43e9] {
+    padding: 0 4.266667vw;
+    margin-bottom: 32vw
+}
+
+.scrollList .wrapper-tontent .cardList[data-v-59eb43e9] {
+    display: flex;
+    height: 29.333333vw;
+    margin: 5.333333vw 0;
+    justify-content: center
+}
+
+.scrollList .wrapper-tontent .cardList .moneyLeft[data-v-59eb43e9],.scrollList .wrapper-tontent .cardList .moneyRight[data-v-59eb43e9] {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 2;
+    height: 100%;
+    padding: 0 5.333333vw;
+    position: relative
+}
+
+.scrollList .wrapper-tontent .cardList .moneyLeft .icon-icon_remind[data-v-59eb43e9],.scrollList .wrapper-tontent .cardList .moneyRight .icon-icon_remind[data-v-59eb43e9] {
+    position: absolute;
+    right: 1.333333vw;
+    top: 0;
+    font-size: 5.333333vw;
+    color: #e9cfa4
+}
+
+.scrollList .wrapper-tontent .cardList .moneyLeft .money[data-v-59eb43e9],.scrollList .wrapper-tontent .cardList .moneyRight .money[data-v-59eb43e9] {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 3.733333vw;
+    color: #21e06b;
+    line-height: 1.5;
+    font-weight: 500;
+    text-align: left
+}
+
+.scrollList .wrapper-tontent .cardList .moneyLeft .moneyText[data-v-59eb43e9],.scrollList .wrapper-tontent .cardList .moneyRight .moneyText[data-v-59eb43e9] {
+    flex: 1;
+    font-size: 3.733333vw;
+    color: #e9cfa4;
+    font-weight: 500;
+    position: relative;
+    text-align: center;
+    display: flex
+}
+
+.scrollList .wrapper-tontent .cardList .moneyLeft .moneyText span[data-v-59eb43e9],.scrollList .wrapper-tontent .cardList .moneyRight .moneyText span[data-v-59eb43e9] {
+    flex: 2;
+    text-align: left
+}
+
+.scrollList .wrapper-tontent .cardList .moneyLeft .moneyText i[data-v-59eb43e9],.scrollList .wrapper-tontent .cardList .moneyRight .moneyText i[data-v-59eb43e9] {
+    flex: 1;
+    text-align: left
+}
+
+.scrollList .wrapper-tontent .cardList .moneyBox[data-v-59eb43e9] {
+    background: #35416d;
+    box-shadow: 0 .533333vw 1.066667vw 0 rgba(0,0,0,.2);
+    border-radius: 3.2vw;
+    flex: 1
+}
+
+.scrollList .wrapper-tontent .cardList .leftBox[data-v-59eb43e9] {
+    margin-right: 4.266667vw
+}
+
+.scrollList .wrapper-tontent .van-cell[data-v-59eb43e9] {
+    padding: 0;
+    background-color: transparent!important
+}
+
+.scrollList .wrapper-tontent .van-cell[data-v-59eb43e9]:after {
+    border-bottom: 0 solid transparent
+}
+
+.scrollList .wrapper-tontent[data-v-59eb43e9] .van-field__body {
+    height: 13.333333vw;
+    line-height: 13.333333vw;
+    width: 100%;
+    padding: 0;
+    margin-top: 4.266667vw;
+    border-radius: 2.133333vw;
+    background-color: #1e2646
+}
+
+.scrollList .wrapper-tontent[data-v-59eb43e9] .van-field__body .van-field__control {
+    border-radius: 2.133333vw;
+    padding: 0 4.266667vw;
+    color: #fff
+}
+
+.scrollList .wrapper-tontent[data-v-59eb43e9] .van-field__error-message {
+    font-size: 3.733333vw;
+    text-align: left;
+    font-weight: 400;
+    padding: 4.266667vw 2.666667vw 0 2.666667vw
+}
+
+.scrollList .wrapper-tontent .remindText[data-v-59eb43e9] {
+    margin-top: 2.666667vw;
+    line-height: 1.2;
+    font-size: 3.733333vw;
+    color: #fff;
+    font-weight: 400
+}
+
+.scrollList .wrapper-tontent .remindTransfer[data-v-59eb43e9] {
+    margin-top: 2.666667vw;
+    line-height: 1.2;
+    font-size: 3.2vw;
+    color: #90a2dc;
+    font-weight: 400;
+    display: flex
+}
+
+.scrollList .wrapper-tontent .remindTransfer i[data-v-59eb43e9] {
+    font-size: 3.733333vw;
+    color: #e9cfa4;
+    margin-right: 1.333333vw
+}
+
+.scrollList .wrapper-tontent .hint[data-v-59eb43e9] {
+    display: flex;
+    justify-content: space-between;
+    font-size: 3.2vw;
+    margin-top: 2.666667vw
+}
+
+.scrollList .wrapper-tontent .hint p[data-v-59eb43e9] {
+    color: #90a2dc;
+    font-weight: 400;
+    line-height: 1.2
+}
+
+.scrollList .wrapper-tontent .hint span[data-v-59eb43e9] {
+    color: #fff;
+    line-height: 1.2;
+    font-weight: 400
+}
+
+.scrollList .wrapper-tontent .hint .withdrawalLimit[data-v-59eb43e9] {
+    color: #90a2dc
+}
+
+.scrollList .wrapper-tontent .send[data-v-59eb43e9] {
+    margin-top: 5.333333vw;
+    margin-bottom: 4.266667vw
+}
+
+.scrollList .wrapper-tontent .sendBtn[data-v-59eb43e9] {
+    height: 13.333333vw;
+    background-image: linear-gradient(90deg,#7146ff,#4a69ff);
+    border-radius: 6.666667vw;
+    line-height: 13.333333vw;
+    vertical-align: middle;
+    font-size: 3.733333vw;
+    color: #fff;
+    text-align: center;
+    font-weight: 400
+}
+
+.scrollList .wrapper-tontent .bottom[data-v-59eb43e9] {
+    height: 8vw;
+    color: #fff;
+    font-size: 3.2vw;
+    text-align: center
+}
+
+.scrollList .wrapper-tontent .maxAmout[data-v-59eb43e9] {
+    font-size: 3.733333vw;
+    color: #e9cfa4;
+    font-weight: 400;
+    margin-right: 4.266667vw
+}
+
+.scrollList .wrapper-tontent .bankNameMore[data-v-59eb43e9] {
+    color: #fff;
+    font-size: 3.733333vw;
+    display: inline-block;
+    text-align: center;
+    margin-right: 4.266667vw;
+    width: 10.666667vw;
+    text-align: right
+}
+
+.overlay-list[data-v-59eb43e9] {
+    min-height: 53.333333vw
+}
+
+[data-v-59eb43e9] .van-radio__label {
+    width: 53.333333vw!important;
+    color: #fff;
+    text-align: center;
+    font-size: 3.2vw;
+    margin-left: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.van-nav-bar__right[data-v-59eb43e9],[data-v-59eb43e9] .van-nav-bar__left {
+    font-size: 5.333333vw
+}
+
+.van-nav-bar__right .van-nav-bar__arrow[data-v-59eb43e9],[data-v-59eb43e9] .van-nav-bar__left .van-nav-bar__arrow {
+    margin-right: 1.066667vw;
+    font-size: 5.333333vw
+}
+
+.van-nav-bar__right .rightText[data-v-59eb43e9],[data-v-59eb43e9] .van-nav-bar__left .rightText {
+    font-size: 5.333333vw;
+    color: #fff
+}
+
+[data-v-59eb43e9] .showLockBalanceExplainBox {
+    width: 72.266667vw
+}
+
+[data-v-59eb43e9] .showLockBalanceExplainBox .van-dialog__header {
+    height: 10.666667vw;
+    line-height: 10.666667vw;
+    padding: 0;
+    color: #1b233d;
+    font-size: 4.266667vw;
+    border-bottom: 1px solid #d4d4d4
+}
+
+[data-v-59eb43e9] .showLockBalanceExplainBox .closeBtn {
+    position: absolute;
+    right: 2.666667vw;
+    top: 0
+}
+
+[data-v-59eb43e9] .showLockBalanceExplainBox .dialogBody {
+    font-size: 4vw;
+    color: #1b233d;
+    line-height: 5.866667vw;
+    padding: 6.4vw
+}
+
+[data-v-59eb43e9] .showLockBalanceExplainBox .dialogBody p {
+    font-size: 3.733333vw
+}
+
+[data-v-59eb43e9] .showLockBalanceExplainBox .dialogBody p:first-of-type {
+    margin-bottom: 1.066667vw
+}
+
+[data-v-59eb43e9] .showLockBalanceExplainBox .van-goods-action-button--danger {
+    width: 59.466667vw;
+    height: 10.666667vw;
+    background-image: linear-gradient(90deg,#7146ff,#4a69ff);
+    border-radius: 2.133333vw
+}

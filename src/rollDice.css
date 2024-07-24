@@ -1,0 +1,22 @@
+#rollContainer{
+    width: 162px;
+    height: 240px;
+}
+#rollContainer canvas{
+    width: 100%!important;
+    height: 100%!important;
+    background-color: transparent;
+    border: none;
+}
+
+#rollContainer-mobile{
+    width: 105%;
+    height: 130%;
+ 
+}
+#rollContainer-mobile canvas{
+    width: 100%!important;
+    height: 100%!important;
+    background-color: transparent;
+    border: none;
+}

@@ -1,0 +1,50 @@
+{
+  "change_password": {
+    "password_required": "รหัสผ่านต้องมี 6 - 12 อักขระ",
+    "password_mismatch": "การยืนยันรหัสผ่านไม่ถูกต้อง",
+    "change_password_success": "เปลี่ยนรหัสผ่านสำเร็จ",
+    "change_password_fail": "การเปลี่ยนรหัสผ่านไม่สำเร็จ",
+    "change": "เปลี่ยนแปลง",
+    "change_password": "เปลี่ยนรหัสผ่าน",
+    "current_password": "รหัสผ่านปัจจุบัน",
+    "password_placeholder": "ใช้ 6-16 ตัวอักษรรวมทั้งตัวอักษรเล็กและตัวเลข",
+    "new_password": "รหัสผ่านใหม่",
+    "new_password_placeholder": "(ใช้ 6-16 ตัวอักษรรวมทั้งตัวอักษรเล็กและตัวเลข)",
+    "confirm_new_password": "ยืนยันรหัสผ่านใหม่",
+    "confirm_password_placeholder": "ยืนยันรหัสผ่าน",
+    "submit": "เปลี่ยน",
+    "password_confirm_required": "รหัสผ่านยืนยันต้องมี 6 - 12 อักขระ",
+    "set_change_password_success": "เปลี่ยนรหัสผ่านสำเร็จ",
+    "set_change_password_fail": "การเปลี่ยนรหัสผ่านไม่สำเร็จ",
+    "set_change": "เปลี่ยนแปลง",
+    "change_login_password": "เปลี่ยนรหัสผ่านเข้าสู่ระบบ",
+    "password": "รหัสผ่าน",
+    "withdraw_password": "รหัสผ่านถอนเงิน"
+  },
+  "security": {
+    "account_security": "ความปลอดภัยบัญชี",
+    "phone_number": "หมายเลขโทรศัพท์",
+    "login_password": "รหัสผ่านเข้าสู่ระบบ",
+    "withdraw_password": "รหัสผ่านถอนเงิน"
+  },
+  "personal_info": "ข้อมูลส่วนตัว",
+  "account": "บัญชี",
+  "fullname": "ชื่อเต็ม",
+  "contact_support": "ติดต่อฝ่ายบริการลูกค้าเพื่อเปลี่ยนแปลง",
+  "mobile": {
+    "personal_page": "หน้าโปรไฟล์",
+    "join_date": "เข้าร่วม",
+    "full_name": "ชื่อเต็ม",
+    "phone_number": "หมายเลขโทรศัพท์",
+    "bank_account": "บัญชีธนาคาร",
+    "account_count": "จำนวนบัญชี",
+    "change_password": "เปลี่ยนรหัสผ่าน",
+    "password_and_withdraw_password": "รหัสผ่าน & รหัสผ่านถอนเงิน"
+  },
+  "bank_detail": {
+    "add": "เพิ่ม",
+    "account_number": "เลขที่บัญชี",
+    "account_count": "จำนวนบัญชี",
+    "default": "ค่าเริ่มต้น"
+  }
+}

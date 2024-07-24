@@ -1,0 +1,163 @@
+.van-nav-bar {
+    position: relative;
+    z-index: 1;
+    line-height: 5.866667vw;
+    text-align: center;
+    background-color: #293356;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.van-nav-bar--fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.van-nav-bar {
+    box-shadow: 0 0.5px 0 0 hsla(0,0%,100%,.15);
+}
+
+.van-nav-bar--fixed {
+    z-index: 100;
+}
+
+.van-nav-bar__content {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    height: 13.333333vw;
+}
+
+.van-nav-bar__left {
+    left: 0;
+}
+
+.van-nav-bar__left, .van-nav-bar__right {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    padding: 0 4.266667vw;
+    font-size: 3.733333vw;
+    cursor: pointer;
+}
+
+.van-icon {
+    position: relative;
+    font: normal normal normal 3.733333vw/1 vant-icon;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+
+.van-icon, .van-icon:before {
+    display: inline-block;
+}
+
+.van-nav-bar__arrow {
+    margin-right: 1.066667vw;
+    font-size: 4.266667vw;
+}
+
+.van-nav-bar .van-icon {
+    color: #fff;
+}
+
+.van-icon {
+    padding: 1.333333vw;
+}
+
+.van-icon, .van-icon:before {
+    display: inline-block;
+}
+
+.van-icon-arrow-left:before {
+    content: "\e668";
+}
+
+.van-ellipsis {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.van-nav-bar__title {
+    max-width: 60%;
+    margin: 0 auto;
+    color: #fff;
+    font-weight: 500;
+    font-size: 4.266667vw;
+}
+
+.icon-icon_drop_down_solid {
+    display: inline-block;
+    transition: all .3s;
+}
+
+.van-nav-bar__left, .van-nav-bar__right {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    padding: 0 4.266667vw;
+    font-size: 3.733333vw;
+    cursor: pointer;
+}
+
+.van-nav-bar__right {
+    right: 0;
+}
+
+.icon-icon_chat {
+    margin-right: 4.266667vw;
+    position: relative;
+}
+.rightIcon {
+    font-size: 6.4vw;
+    color: #fff;
+}
+
+.icon-icon_chat .van-badge {
+    position: absolute;
+    top: -1.333333vw;
+    right: -1.333333vw;
+}
+.van-badge {
+    position: absolute;
+}
+.van-badge {
+    display: inline-block;
+    box-sizing: border-box;
+    min-width: 4.266667vw;
+    padding: 0 0.8vw;
+    color: #fff;
+    font-weight: 500;
+    font-size: 3.2vw;
+    font-family: -apple-system-font,Helvetica Neue,Arial,sans-serif;
+    line-height: 1.2;
+    text-align: center;
+    background-color: #ee0a24;
+    border: 1px solid #fff;
+    border-radius: 266.4vw;
+}
+
+.rightIcon {
+    font-size: 6.4vw;
+    color: #fff;
+}

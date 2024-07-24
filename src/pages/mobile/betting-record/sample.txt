@@ -1,0 +1,22 @@
+{/* <Tabs defaultValue="account" className="w-full mt-12 pt-4">
+<TabsList className="w-full grid grid-cols-2 bg-transparent border border-main">
+  <TabsTrigger
+    className="data-[state=active]:bg-main"
+    value="account"
+  >
+    Tài xỉu
+  </TabsTrigger>
+  <TabsTrigger
+    className="data-[state=active]:bg-main"
+    value="password"
+  >
+    Xổ số
+  </TabsTrigger>
+</TabsList>
+<TabsContent value="account">
+  <TaiXiuHistory />
+</TabsContent>
+<TabsContent value="password">
+  <XosoHistory />
+</TabsContent>
+</Tabs> */}

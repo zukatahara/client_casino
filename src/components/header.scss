@@ -1,0 +1,33 @@
+.avatar-hover {
+  .nav-hover-avatar-wrapper {
+    transform: translateY(-140px) scaleY(0);
+    transition: all 0.2s ease-in-out 0.25s;
+
+    .nav-hover-avatar {
+      position: relative;
+      z-index: 50;
+      max-height: unset;
+      background-color: rgba(34, 36, 40);
+      padding: 16px 16px 6px 16px;
+      border-radius: 8px;
+
+      .nav-hover-avatar__item {
+        background-color: #ffffff15;
+        margin-bottom: 12px;
+        border-radius: 3px;
+        display: flex;
+        padding: 6px 10px;
+      }
+
+      .nav-hover-avatar__item:hover {
+        background-color: #ffffff26;
+      }
+    }
+  }
+}
+
+.avatar-hover:hover {
+  .nav-hover-avatar-wrapper {
+    transform: translateY(10px) scaleY(1);
+  }
+}
