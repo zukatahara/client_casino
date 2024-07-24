@@ -32,7 +32,7 @@ const ServiceMobile = () => {
           zIndex: 95,
         }}
         className={cn(
-          "fixed right-0 top-[30dvh] w-[100px]  md:hidden",
+          "fixed right-0 top-[25dvh] w-[100px]  md:hidden",
           !isOpen
             ? "!w-[100px] fold-left-enter-active h-[250px]"
             : "!w-[100px] fold-left-leave-active translate50 h-[0]"

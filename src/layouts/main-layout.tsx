@@ -53,7 +53,7 @@ const MainLayout = ({ children }: { children: React.ReactNode }) => {
           )}
           {isMobile && location.pathname === "/" && (
             <div className="md:hidden">
-              <div className="cursor-pointer block  avatar-hover mr-2 mt-1 fixed top-[64dvh]  z-[9999] right-0 md:hidden">
+              <div className="cursor-pointer block  avatar-hover mr-1 fixed top-[61dvh]  z-[9999] right-0 md:hidden">
                 <div className="flex items-center">
                   <div className="dropdown switch-language">
                     <div className="cursor-pointer flex items-center relative z-40">
